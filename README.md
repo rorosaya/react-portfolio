@@ -1,1 +1,3 @@
-Heres the code for my React portfolio :)
+**IN PROGRESS**
+
+Currently Developing a portfolio website using react and javascript.
