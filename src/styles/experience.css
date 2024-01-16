@@ -3,17 +3,26 @@
     justify-content: center;
     margin-top: 3rem;
     text-decoration: none;
-    
 }
 
 .btn {
     font-family: 'Lato';
     font-size: 18px;
     width: 10rem;
+    height: 3rem;
+    border: solid;
     border-radius: 1.5rem;
     border-width: 0;
-    border-color: var(--orange);
+    border-color: var(--pink);
     padding: 0.2rem;
-    background-color: var(--orange);
+    background-color: var(--pink);
     cursor: pointer;
+    transition: 300ms;
+}
+
+.btn:hover {
+    background-color: var(--dark-purple);
+    color: white;
+    border-width: 0.1rem;
+    border-color: var(--orange);
 }

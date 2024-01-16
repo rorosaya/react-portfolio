@@ -12,13 +12,13 @@ const Contact = () => {
         <br/>
         <h2 className="sub-heading">Get In Touch</h2>
         <div className="contact-info-outer-container">
-            <a className="contact-info-link-container" href="mailto:rawad.sayah.j@gmail.com">
+            <a className="contact-info-link-container" id="contactEmail" href="mailto:rawad.sayah.j@gmail.com">
                 <img className="contact-icon" src={mail}/>
                 <p className="contact-text">rawad.sayah.j@gmail.com</p>
             </a>
-            <a className="contact-info-link-container"href="https://www.linkedin.com/in/rawad-s-692267114">
-                <img className="contact-icon" src={linkedin}/>
-                <p className="contact-text">LinkedIn</p> 
+            <a className="contact-info-link-container" id="contactLinkedIn" href="https://www.linkedin.com/in/rawad-s-692267114">
+                    <img className="contact-icon" src={linkedin}/>
+                    <p className="contact-text">LinkedIn</p> 
             </a>
         </div>
         </>

@@ -4,6 +4,7 @@
     --pink-transparent: #ffd6ea40;
     --dark-grey: #282828;
     --dark-purple: #292427;
+    --dark-purple-transparent: #292427b2;
     --trasparent: #000000;
     --orange: #ffb510;
     --orange-trasparent: #ffb31079;
@@ -23,25 +24,16 @@ body::-webkit-scrollbar-track {
     background: var(--dark-purple);
 }
 
-@media only screen and (min-width: 600px){
-    body::-webkit-scrollbar {
-        width: 0.2rem;
-    }
 
-    body::-webkit-scrollbar-thumb {
-        background: linear-gradient(0deg,#ffffff00 , var(--orange) 80%, #ffffff00);
-    }
+body::-webkit-scrollbar {
+    width: 0.2rem;
 }
 
-@media only screen and (max-width: 600px){
-    body::-webkit-scrollbar {
-        height: 0.2rem;
-    }
-
-    body::-webkit-scrollbar-thumb {
-        background: linear-gradient(90deg,#ffffff00 , var(--orange) 80%, #ffffff00);
-    }
+body::-webkit-scrollbar-thumb {
+    background: linear-gradient(0deg,#ffffff00 , var(--orange) 80%, #ffffff00);
 }
+
+
 
 .title,
 .sub-heading {

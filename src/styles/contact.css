@@ -4,19 +4,39 @@
     border-radius: 2rem;
     border: var(--orange-trasparent) 0.1rem solid;
     width: 25rem;
-    padding: 0.5rem;
+    height: 10rem;
+    background-color: var(--dark-purple);
     font-family: 'Lato';
     font-size: 1.5rem;
+    transition: 300ms;
 }
 
 .contact-info-link-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    height: 5rem;
     color:white;
-    
+    text-decoration: none;
+    transition: 300ms;
+}
+
+#contactEmail {
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    transform: translateY(-1rem);
+}
+
+#contactLinkedIn {
+    transform: translateY(-1rem);
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.contact-info-link-container:hover {
+    background-color: var(--pink-transparent);
 }
 
 .contact-icon {
@@ -30,4 +50,11 @@
     text-transform: uppercase;
     text-decoration: none;
 }
+
+@media only screen and (max-width: 600px){
+    .contact-info-outer-container {
+        width: 20rem;
+    }
+}
+
 
