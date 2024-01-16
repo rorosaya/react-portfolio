@@ -19,12 +19,14 @@
 #intro {
     margin-left: 16vw;
     width: 70vw;
+    text-align: right;
     font-family: 'Lato';
 }
 
 .name{
     margin-left: 16vw;
     width: 70vw;
+    text-align: right;
     font-family: 'Poppins';
     color: var(--orange);
     transform: translateY(-1.3rem);
