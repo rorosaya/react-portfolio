@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link, useLocation } from "react-router-dom";
 import person from "../assets/person.png";
 import projects from "../assets/projects.png";
+import resume from "../assets/resume.png";
 import mail from "../assets/mail.png";
 import "../styles/nav.css";
 
@@ -16,6 +17,8 @@ export default function Nav() {
                 return "nav-about";
             case "/projects":
                 return "nav-projects";
+            case "/experience":
+                return "nav-experience"
             case "/contact":
                     return "nav-contact";
             default:
@@ -29,6 +32,8 @@ export default function Nav() {
                 return "About";
             case "/projects":
                 return "Projects";
+            case "/experience":
+                return "Experience"
             case "/contact":
                 return "Contact";
             default:
@@ -57,13 +62,20 @@ export default function Nav() {
     return (
         <body>
             <nav class="navbar"></nav>
-            <nav className={'nav ${navPositionClass}'}>
+            <nav className={"nav ${navPositionClass}"}>
                 {renderNavLink(
                     "/",
                     "About",
                     person,
                     "person icon",
                     "nav-about"
+                )}
+                {renderNavLink(
+                    "/experience",
+                    "Experience",
+                    resume,
+                    "resume icon",
+                    "nav-experience"
                 )}
                 {renderNavLink(
                     "/projects",

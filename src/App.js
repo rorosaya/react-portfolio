@@ -4,6 +4,7 @@ import Nav from "./nav/Nav.js";
 import About from "./about/About";
 import Projects from "./projects/Projects";
 import Contact from "./contact/Contact";
+import DevTitle from "./devTitle/DevTitle.js"
 import "./styles/app.css"
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
           <Route path="/projects" element={Projects}/>
           <Route paht="/contact" element={Contact}/>
         </Routes>
+        <DevTitle/>
       </Router>
     );
 };

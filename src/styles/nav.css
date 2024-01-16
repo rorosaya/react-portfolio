@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap');
+
 :root {
     --pink: #ECCCFF;
     --transition-speed: 600ms;
@@ -51,7 +54,6 @@ main {
     
 }
 
-
 @media only screen and (min-width: 600px){
     .navbar{
         top: 0;
@@ -64,7 +66,9 @@ main {
     }
 
     .page-title {
+        font-family: 'Lato';
         font-size: 1.5rem;
+        text-transform: uppercase;
         color:var(--pink);
         cursor: default;
         position: fixed;
