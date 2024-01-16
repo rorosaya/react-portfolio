@@ -1,3 +1,3 @@
 **IN PROGRESS**
 
-Currently Developing a portfolio website using react and javascript.
+Currently Developing a portfolio website using React, Node, and Javascript.
