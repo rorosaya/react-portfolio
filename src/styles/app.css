@@ -19,18 +19,31 @@ body {
     background-color: var(--dark-grey);
 }
 
-body::-webkit-scrollbar {
-    width: 0.2rem;
-}
-
 body::-webkit-scrollbar-track {
     background: var(--dark-purple);
 }
 
-body::-webkit-scrollbar-thumb {
-    background: linear-gradient(0deg,#ffffff00 , var(--orange) 80%, #ffffff00);
+@media only screen and (min-width: 600px){
+    body::-webkit-scrollbar {
+        width: 0.2rem;
+    }
+
+    body::-webkit-scrollbar-thumb {
+        background: linear-gradient(0deg,#ffffff00 , var(--orange) 80%, #ffffff00);
+    }
 }
 
+@media only screen and (max-width: 600px){
+    body::-webkit-scrollbar {
+        height: 0.2rem;
+    }
+
+    body::-webkit-scrollbar-thumb {
+        background: linear-gradient(90deg,#ffffff00 , var(--orange) 80%, #ffffff00);
+    }
+}
+
+.title,
 .sub-heading {
     display: fixed;
     text-align: center;
@@ -40,9 +53,14 @@ body::-webkit-scrollbar-thumb {
     margin-top: 3rem;
 }
 
-.line-break {
-    display: block;
-    background-color: var(--orange);
-    height: 0.1rem;
-    width: 70vw;
+.title {
+    font-size: 2rem;
+}
+
+.sub-heading {
+    font-size: 1rem;
+}
+
+.highlight {
+    color: var(--pink);
 }

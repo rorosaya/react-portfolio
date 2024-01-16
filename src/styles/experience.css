@@ -1,0 +1,19 @@
+.cv-btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    text-decoration: none;
+    
+}
+
+.btn {
+    font-family: 'Lato';
+    font-size: 18px;
+    width: 10rem;
+    border-radius: 1.5rem;
+    border-width: 0;
+    border-color: var(--orange);
+    padding: 0.2rem;
+    background-color: var(--orange);
+    cursor: pointer;
+}
