@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap');
 
 :root {
-    --pink: #ECCCFF;
+    
     --transition-speed: 600ms;
 }
 
@@ -15,17 +15,14 @@ main {
 .navbar{
     position: fixed;
     background-color: #292427;
+    z-index: 100;
 }
 
 /* all nav elements */
 .nav {
     position: fixed;
-    left: 0rem;
-    padding: 0;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+    z-index: 100;
 }
 
 .icon{
@@ -37,8 +34,6 @@ main {
 .nav-link{
     display: flex;
     align-items: center;
-    
-    
     filter: grayscale(100%) opacity(0.4);
     background: none;
     transition: var(--transition-speed);
@@ -46,7 +41,7 @@ main {
 
 .nav-link:hover {
     filter: grayscale(0%) opacity(1);
-    background: #ffd6ea40;
+    /* background: var(--pink-transparent); */
 }
 
 .nav-link.current {
@@ -63,6 +58,8 @@ main {
 
     .nav {
         top: 2vh;
+        flex-direction: column;
+        align-items: center;
     }
 
     .page-title {
@@ -74,26 +71,30 @@ main {
         position: fixed;
         margin-left: 6rem;
         transition: var(--transition-speed);
+        height: 5.5rem;
+        align-items: center;
+        display: none;
     }
 
     .nav-link{
         height: 5.5rem;
-        width: 5rem;
-    }
-
-    .nav-link.current .page-title {
-        
+        width: 15rem;
     }
     
     .nav-link:not(.current) .page-title{
         transition: var(--transition-speed);
         display:none;
     }
+
+    .nav-link:hover{
+        background-image: linear-gradient(90deg,var(--pink-transparent)10%, #00000040 50%, #ffffff00);
+    }
     
-    .nav-link:not(.current):hover .page-title{
+    .nav-link:hover .page-title{
         display: flex;
         animation: slidein 500ms;
     }
+
 
     /*would rather have it wipe in*/
     @keyframes slidein {
@@ -114,7 +115,6 @@ main {
     .nav {
         bottom: 0;
         flex-direction: row;
-        
     }
 
     .nav-link{

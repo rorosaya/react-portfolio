@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap');
 
+:root {
+    --orange: #ffb510;
+}
+
 #devTitle {
     display: flex;
     flex-direction: column;
@@ -14,7 +18,7 @@
 }
 
 #period {
-    color: #ffb510;
+    color: var(--orange);
 }
 
 #title {
@@ -22,5 +26,6 @@
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 12px;
+    color: var(--pink);
     transform: translateY(-1.8rem);
 }

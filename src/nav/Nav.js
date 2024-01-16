@@ -58,11 +58,12 @@ export default function Nav() {
             </Link>
         )
     }
+    const classs = 'nav ${pageTitle}';
 
     return (
         <body>
             <nav class="navbar"></nav>
-            <nav className={"nav ${navPositionClass}"}>
+            <nav className={`nav ${navPositionClass}`}>
                 {renderNavLink(
                     "/",
                     "About",

@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 
-const Projects = () => {
+const Experience = () => {
 
     return (
         <>
-        <h1 className="sub-heading">Projects</h1>
+        <h1 className="sub-heading">Experience</h1>
         <div>
                 
         </div>
@@ -13,4 +13,4 @@ const Projects = () => {
     
 }
 
-export default Projects;
+export default Experience;

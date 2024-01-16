@@ -1,0 +1,52 @@
+:root {
+    --pink: #ECCCFF;
+}
+
+.body {
+    margin-bottom: 10rem;
+}
+
+
+#profilePic {
+    display: block;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    transform: translateY(-1rem);
+}
+
+#intro {
+    display: flex;
+    justify-content: flex-end;
+    width: 85vw;
+    font-family: 'Lato';
+}
+
+.name{
+    display: flex;
+    justify-content: flex-end;
+    width: 85vw;
+    font-family: 'Poppins';
+    color: var(--orange);
+    transform: translateY(-1.3rem);
+}
+
+.bio{
+    margin-left: 16vw;
+    width: 70vw;
+    font-family: 'Lato';
+    text-align: right;
+    transform: translateY(-1rem);
+    word-spacing: 0.1rem;
+    letter-spacing: 0.5px;
+    line-height: 2;
+}
+
+
+.line-break {
+    display: block;
+    background-color: var(--orange);
+    height: 0.1rem;
+    width: 70vw;
+}
