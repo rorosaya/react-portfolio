@@ -29,7 +29,7 @@ const About = () => {
                 including
                 <span className="highlight"> Machine Learning</span>,
                 <span className="highlight"> Network Security</span>, and
-                <span className="highlight"> Frontend & Backend Development</span>,
+                <span className="highlight"> Fullstack Development</span>,
                 just to name a few, and continued to graduate at 
                 the top of my class with the honor of 
                 <span className="highlight"> Summa Cum Laude</span>!
