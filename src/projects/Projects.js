@@ -1,16 +1,17 @@
 import React, { Component } from 'react'
+import ProjectsMenu from "./ProjectsMenu"
 
-const Projects = () => {
+export default class Projects extends Component {
 
-    return (
-        <>
-        <h1 className="title">Projects</h1>
-        <div>
-                
-        </div>
-        </>
-    )
+
+    render(){
+        return (
+            <>
+                <h1 className="title">Projects</h1>
+                <ProjectsMenu/>
+            </>
+        )
+    }
+    
     
 }
-
-export default Projects;

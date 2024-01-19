@@ -6,11 +6,11 @@ const About = () => {
     return (
         <>
         <h1 className="title">About</h1>
-        <div className="body">
+        <div id="aboutBodyContainer">
             <img id="profilePic" src={profilePic}/>
             <p id="intro">Hello, I'm</p>
-            <h2 className='name'>Rawad</h2>
-            <p className="bio">
+            <p id='introName'>Rawad</p>
+            <p className="description">
                 I am a first generation
                 <span className="highlight"> Lebanese</span> 
                 -American and aspiring Software Engineer.
@@ -39,8 +39,8 @@ const About = () => {
                 <br/> 
                 <br/>
             </p>
-            <h3 className="sub-heading">Get to know me</h3>
-            <p className="bio">
+            <h2 className="sub-heading">Get to know me</h2>
+            <p className="description">
                 <br/>
                 Throughout my childhood I would take annual trips
                 to visit my relatives in Lebanon which gave me the

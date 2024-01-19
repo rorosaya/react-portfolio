@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@700&display=swap');
 
 :root {
     --pink: #ECCCFF;
@@ -33,22 +34,15 @@ body::-webkit-scrollbar-thumb {
     background: linear-gradient(0deg,#ffffff00 , var(--orange) 80%, #ffffff00);
 }
 
-
-
-
-
 .title,
 .sub-heading {
     display: fixed;
     text-align: center;
     font-family: 'Lato';
     text-transform: uppercase;
+    font-weight: 300;
     color: var(--pink);
     margin-top: 3rem;
-}
-
-.title {
-    font-size: 2rem;
 }
 
 .sub-heading {

@@ -2,8 +2,12 @@
     --pink: #ECCCFF;
 }
 
-.body {
+#aboutBodyContainer {
     margin-bottom: 10rem;
+    margin-left: 16vw;
+    width: 70vw;
+    font-family: 'Lato';
+    text-align: right;
 }
 
 
@@ -17,26 +21,17 @@
 }
 
 #intro {
-    margin-left: 16vw;
-    width: 70vw;
-    text-align: right;
-    font-family: 'Lato';
+    /* intro line code here */
 }
 
-.name{
-    margin-left: 16vw;
-    width: 70vw;
-    text-align: right;
+#introName{
     font-family: 'Poppins';
+    font-size: 1.5rem;
     color: var(--orange);
     transform: translateY(-1.3rem);
 }
 
-.bio{
-    margin-left: 16vw;
-    width: 70vw;
-    font-family: 'Lato';
-    text-align: right;
+.description{
     transform: translateY(-1rem);
     word-spacing: 0.1rem;
     letter-spacing: 0.5px;
