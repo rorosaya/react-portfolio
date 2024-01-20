@@ -27,7 +27,8 @@ export default class ProjectsMenu extends Component {
                     <div className="project-image-container">
                         <img className="project-image" src={project.image}/>
                     </div>
-                    <h4 clasName="highlights"> Highlights </h4>
+                    <h4 className="highlights-heading"> Highlights </h4>
+                    <span className="line-break"></span>
                     <div className="description">{project.description}</div>
                     <div className="link-container">
                         <a href={project.github}> 

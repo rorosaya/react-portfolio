@@ -83,6 +83,7 @@ const projects = {
                     enclosure in 
                     <span className="highlight"> AutoCad </span>
                     to house a portable battery, board, sensors, and wiring.
+                    <br/>
                 </p>
             </>
         ),
@@ -96,7 +97,21 @@ const projects = {
         description: (
             <>
                 <p className="description">
-                    LOREM IPSUM
+                    • Utilized
+                    <span className="highlight"> HTML</span>
+                    ,
+                    <span className="highlight"> JavaScript</span>
+                    , and
+                    <span className="highlight"> React </span>
+                    in order to create and design a personal portfolio website
+                    <br/>
+                    • Styled and animated using
+                    <span className="highlight"> CSS </span>
+                    to accomodate for desktop and mobile devices of varying sizes
+                    <br/>
+                    • Produced an asynchornous web application using
+                    <span className="highlight"> Node.js </span>
+                    <br/>
                 </p>
             </>
         ),

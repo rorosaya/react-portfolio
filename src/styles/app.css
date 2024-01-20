@@ -60,6 +60,12 @@ body::-webkit-scrollbar-thumb {
     color: var(--pink);
 }
 
+.line-break {
+    display: block;
+    background: linear-gradient(90deg,#ffffff00 , var(--orange) 40%,var(--orange) 60%, #ffffff00);
+    height: 0.15rem;
+}
+
 .btn {
     font-family: 'Lato';
     font-size: 18px;

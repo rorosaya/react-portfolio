@@ -3,9 +3,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    right:3rem;
-    top: 3rem;
+    margin-top: 3rem;
     margin-bottom: 15rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
     word-spacing: 0.1rem;
     letter-spacing: 0.5px;
     
@@ -24,10 +25,21 @@
     border-radius: 2rem;
 }
 
+
+.project-sub-container-inner-border {
+    margin: 2rem;
+}
+
 .project-title {
     font-family: 'Poppins';
     font-size: 1.2rem;
     color: var(--orange);
+}
+
+.highlights-heading {
+    font-family: 'Lato';
+    font-weight: 300;
+    text-transform: uppercase;
 }
 
 .github-project-icon{
@@ -63,9 +75,6 @@
         
     }
 
-    .project-sub-container-inner-border {
-        margin: 2rem;
-    }
     
 
     .project-item {
@@ -124,13 +133,45 @@
         flex-direction: column;
         display: flex;
         align-items: center;
+        justify-content: center;
         position: relative;
         width: 99vw;
+        margin-bottom: 2rem;
         
+    }
+
+    .project-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20rem;
+        height: 3rem;
+        text-align: center;
     }
 
     .project-items-subcontainer {
         left: 5rem;
+    }
+
+    .project-abbre {
+        transition: 200ms;
+    }
+
+    .project-item:hover .project-abbre {
+        transform: translateY(-0.5rem);
+    }
+
+    .activeProject .project-abbre {
+        
+        font-size: 1.5rem;
+        color: white;
+        transition: 400ms;
+    }
+
+    .activeProject{
+        
+        cursor: default;
+        background: linear-gradient(90deg,#ffffff00 , var(--orange) 50%, #ffffff00);
     }
 
     .project-image {
