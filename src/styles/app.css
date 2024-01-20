@@ -8,7 +8,7 @@
     --dark-purple-transparent: #292427b2;
     --trasparent: #000000;
     --orange: #ffb510;
-    --orange-trasparent: #ffb31079;
+    --orange-transparent: #ffb31079;
     --radius-left: 3rem 0 0 3rem;
     --radius-right: 0 3rem 3rem 0;
 }
@@ -49,6 +49,33 @@ body::-webkit-scrollbar-thumb {
     font-size: 1rem;
 }
 
+.description {
+    font-family: 'Lato';
+    word-spacing: 0.1rem;
+    letter-spacing: 0.5px;
+    line-height: 2;
+}
+
 .highlight {
     color: var(--pink);
+}
+
+.btn {
+    font-family: 'Lato';
+    font-size: 18px;
+    border: solid;
+    border-radius: 1.5rem;
+    border-width: 0;
+    border-color: var(--pink);
+    padding: 0.2rem;
+    background-color: var(--pink);
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.btn:hover {
+    background-color: var(--dark-purple);
+    color: white;
+    border-width: 0.1rem;
+    border-color: var(--orange);
 }

@@ -31,11 +31,8 @@
     transform: translateY(-1.3rem);
 }
 
-.description{
+#bio{
     transform: translateY(-1rem);
-    word-spacing: 0.1rem;
-    letter-spacing: 0.5px;
-    line-height: 2;
 }
 
 

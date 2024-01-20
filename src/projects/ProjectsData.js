@@ -11,7 +11,26 @@ const projects = {
         description: (
             <>
                 <p className="description">
-                    LOREM IPSUM
+                    • Implemented and compared the accuracy of 
+                    <span className="highlight"> Linear Regression </span>
+                    and
+                    <span className="highlight"> K-Nearest-Neighbors </span>
+                    (KNN) models on a Rideshare Pricing Dataset.
+                    <br/>
+                    • Applied 
+                    <span className="highlight"> Principal Component Analysis </span>
+                    (PCA) to extract meaningful features
+                    <br/>
+                    • Manipulated and cleaned
+                    <span className="highlight"> pandas </span>
+                    data while documenting process of decisions with visual comparisons within a 
+                    <span className="highlight"> Jupyter </span>
+                    file using 
+                    <span className="highlight"> Tensorflow </span>
+                    and 
+                    <span className="highlight"> Sklearn </span>
+                    libraries.
+                    <br/>
                 </p>
             </>
         ),
@@ -25,7 +44,19 @@ const projects = {
         description: (
             <>
                 <p className="description">
-                    LOREM IPSUM
+                    • Utilized 
+                    <span className="highlight"> Python </span>
+                    to Implement and compare accuracy of 
+                    <span className="highlight"> Logistic Regression </span>
+                    and 
+                    <span className="highlight"> KNN </span>
+                    on an 
+                    <span className="highlight"> Imaging Dataset </span>
+                    <br/>
+                    • Manipulated and 
+                    <span className="highlight"> cleaned data </span>
+                    while documenting process of decisions with visual comparisons within Jupiter File.
+                    <br/>
                 </p>
             </>
         ),
@@ -39,7 +70,19 @@ const projects = {
         description: (
             <>
                 <p className="description">
-                    LOREM IPSUM
+                    • Programmed 
+                    <span className="highlight"> Zybo </span>
+                    board attached with 
+                    <span className="highlight"> Digilent PMOD sensors </span>
+                    in 
+                    <span className="highlight"> C </span>
+                    to monitor real-time atmospheric conditions.
+                    <br/>
+                    • Designed and 
+                    <span className="highlight"> 3D printed </span>
+                    enclosure in 
+                    <span className="highlight"> AutoCad </span>
+                    to house a portable battery, board, sensors, and wiring.
                 </p>
             </>
         ),
@@ -48,7 +91,7 @@ const projects = {
     },
     4: {
         abbre: "Portfolio",
-        title: "This.Portfolio!",
+        title: "this.Portfolio!",
         image: projectFourImage,
         description: (
             <>
@@ -61,3 +104,5 @@ const projects = {
         
     }
 }
+
+export default projects;

@@ -1,11 +1,12 @@
-import React, { Component } from 'react'
+import React, { Component } from "react"
+import github from "../assets/github.png"
 import classNames from 'classnames'
-import project from "./ProjectsData"
-import "../style/projects.css"
-import { render } from 'react-dom'
+import projects from "./ProjectsData"
+import "../styles/projectsMenu.css"
 
 export default class ProjectsMenu extends Component {
-    contructor(props) {
+
+    constructor(props) {
         super(props)
         this.state = {
             activeProject: 1,
@@ -13,20 +14,28 @@ export default class ProjectsMenu extends Component {
     };
 
     handleProjectClick = (project) => {
-        this.ListeningStateChangedEvent({
+        this.setState({
             activeProject: project,
         })
     }
 
     renderContent = (projects) => {
         return projects.map((project,index) => (
-            <div key={index} className={'project-sub-container-${index + 1}'}>
-                <h3>(project.title)</h3>
-                <img src={project.image}/>
-                <div>project.description</div>
-                <div className="link-container">
-                    <a href={project.github}> GITHUB </a>
+            <div key={index} className={`project-sub-container-${index + 1}`}>
+                <div className="project-sub-container-inner-border">
+                    <h3 className="project-title">{project.title}</h3>
+                    <div className="project-image-container">
+                        <img className="project-image" src={project.image}/>
+                    </div>
+                    <h4 clasName="highlights"> Highlights </h4>
+                    <div className="description">{project.description}</div>
+                    <div className="link-container">
+                        <a href={project.github}> 
+                            <img className="github-project-icon" src={github}/>
+                        </a>
+                    </div>
                 </div>
+
 
             </div>
         ));
@@ -34,11 +43,10 @@ export default class ProjectsMenu extends Component {
 
     render() {
         const {activeProject} = this.state;
-        const projectItem = ["PROJECT 1", "PROJECT 2", "PROJECT 3"];
+        const projectItems = [projects[1].abbre, projects[2].abbre, projects[3].abbre, projects[4].abbre];
     
         return (
             <>
-            <h1 className="title">Projects</h1>
             <div className="project-menu">
                 <div className="project-items-container">
                     {projectItems.map((item, index) => (
@@ -49,12 +57,12 @@ export default class ProjectsMenu extends Component {
                             )}
                             onClick={() => this.handleProjectClick(index + 1)}
                         >
-                            <h2 className="title">{item}</h2>
+                            <h2 className="project-abbre">{item}</h2>
                         </div>
                     ))}
                 </div>
                 <div className="project-items-subcontainer">
-
+                        {this.renderContent([projects[activeProject]])}
                 </div>
             </div>
             </>

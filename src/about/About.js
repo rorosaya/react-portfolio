@@ -10,7 +10,7 @@ const About = () => {
             <img id="profilePic" src={profilePic}/>
             <p id="intro">Hello, I'm</p>
             <p id='introName'>Rawad</p>
-            <p className="description">
+            <p className="description" id="bio">
                 I am a first generation
                 <span className="highlight"> Lebanese</span> 
                 -American and aspiring Software Engineer.
@@ -40,7 +40,7 @@ const About = () => {
                 <br/>
             </p>
             <h2 className="sub-heading">Get to know me</h2>
-            <p className="description">
+            <p className="description" id="bio">
                 <br/>
                 Throughout my childhood I would take annual trips
                 to visit my relatives in Lebanon which gave me the

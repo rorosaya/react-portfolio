@@ -1,0 +1,32 @@
+.github-btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    text-decoration: none;
+}
+
+.github-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 3rem;
+}
+
+.github-btn-icon {
+    filter: invert();
+    width: 2rem;
+    margin-right: 0.25rem;
+
+}
+
+.btn:hover {
+    background-color: var(--dark-purple);
+    color: white;
+    border-width: 0.1rem;
+    border-color: var(--orange);
+}
+
+.btn:hover .github-btn-icon {
+    filter: none;
+}
