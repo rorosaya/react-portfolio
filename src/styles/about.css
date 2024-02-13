@@ -6,7 +6,7 @@
     margin-bottom: 10rem;
     margin-left: 16vw;
     width: 70vw;
-    text-align: right;
+    
 }
 
 
@@ -19,16 +19,94 @@
     transform: translateY(-1rem);
 }
 
-#intro {
-    /* intro line code here */
+.intro {
+   text-align: right;
+   
+   
 }
 
-#introName{
+.intro_names{
+    
     font-family: 'Poppins';
     font-size: 1.5rem;
     color: var(--orange);
-    transform: translateY(-1.3rem);
+    height: 3rem;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    
+    
+    
+
 }
+
+.name{
+    animation: switchNames 20s ease infinite;
+    
+}
+
+@keyframes switchNames {
+    0%,
+    85%,
+    90%,
+    95%,
+    100%{
+        transform: translateY(-1rem);
+    }
+    5% {
+        transform: translateY(-5rem);
+    }
+    10% {
+        transform: translateY(-5rem);
+    }
+    15% {
+        transform: translateY(-8.5rem);
+    }
+    20% {
+        transform: translateY(-8.5rem);
+    }
+    25% {
+        transform: translateY(-12.25rem);
+    }
+    30% {
+        transform: translateY(-12.25rem);
+    }
+    35% {
+        transform: translateY(-16rem);
+    }
+    40% {
+        transform: translateY(-16rem);
+    }
+    45% {
+        transform: translateY(-19.5rem);
+    }
+    50% {
+        transform: translateY(-19.5rem);
+    }
+    55% {
+        transform: translateY(-23.5rem);
+    }
+    60% {
+        transform: translateY(-23.5rem);
+    }
+    65% {
+        transform: translateY(-27rem);
+    }
+    70% {
+        transform: translateY(-27rem);
+    }
+    75% {
+        transform: translateY(-31rem);
+    }
+    80% {
+        transform: translateY(-31rem);
+    }
+
+} 
+
+.description{
+    text-align: right;
+}
+
 
 #bio{
     transform: translateY(-1rem);

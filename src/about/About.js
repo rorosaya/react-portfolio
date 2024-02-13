@@ -2,14 +2,30 @@ import React, { Component } from 'react';
 import profilePic from "../assets/Rawad.png";
 import "../styles/about.css";
 
+
 const About = () => {
+
+
     return (
         <>
         <h1 className="title">About</h1>
         <img id="profilePic" src={profilePic}/>
         <div id="aboutBodyContainer">
-            <p id="intro">Hello, I'm</p>
-            <p id='introName'>Rawad</p>
+            <div class="intro">
+                Hello, I'm
+                <div class = "intro_names">
+                    <p class="name">Rawad</p>
+                    <p class="name">a Software Engineer</p>
+                    <p class="name">a Computer Engineer</p>
+                    <p class="name">a UI/UX Developer</p>
+                    <p class="name">an Adventurer</p>
+                    <p class="name">an Aritst</p>
+                    <p class="name">a Pianist</p>
+                    <p class="name">a Leo</p>
+                    <p class="name">Lebanese</p>
+                </div>
+            </div>
+            
             <p className="description" id="bio">
                 I am a first generation
                 <span className="highlight"> Lebanese</span> 

@@ -5,27 +5,8 @@
     text-decoration: none;
 }
 
-.btn {
-    font-family: 'Lato';
-    font-size: 18px;
-    border: solid;
-    border-radius: 1.5rem;
-    border-width: 0;
-    border-color: var(--pink);
-    padding: 0.2rem;
-    background-color: var(--pink);
-    cursor: pointer;
-    transition: 300ms;
-}
 
 .cv-btn {
     width: 10rem;
     height: 3rem;
-}
-
-.btn:hover {
-    background-color: var(--dark-purple);
-    color: white;
-    border-width: 0.1rem;
-    border-color: var(--orange);
 }
