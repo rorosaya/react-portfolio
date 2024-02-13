@@ -6,8 +6,8 @@ const About = () => {
     return (
         <>
         <h1 className="title">About</h1>
+        <img id="profilePic" src={profilePic}/>
         <div id="aboutBodyContainer">
-            <img id="profilePic" src={profilePic}/>
             <p id="intro">Hello, I'm</p>
             <p id='introName'>Rawad</p>
             <p className="description" id="bio">
