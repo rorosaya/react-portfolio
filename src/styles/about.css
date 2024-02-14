@@ -125,10 +125,10 @@
             transform: translateY(-1.5rem);
         }
         5% {
-            transform: translateY(-5rem);
+            transform: translateY(-5.25rem);
         }
         10% {
-            transform: translateY(-5rem);
+            transform: translateY(-5.25rem);
         }
         15% {
             transform: translateY(-9rem);
