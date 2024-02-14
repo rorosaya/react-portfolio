@@ -30,7 +30,7 @@ export default class ProjectsMenu extends Component {
                     <h4 className="highlights-heading"> Highlights </h4>
                     <span className="line-break"></span>
                     <div className="description">{project.description}</div>
-                    <div className="link-container">
+                    <div>
                         <a href={project.github}> 
                             <img className="github-project-icon" src={github}/>
                         </a>

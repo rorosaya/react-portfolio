@@ -3,7 +3,7 @@
 }
 
 #aboutBodyContainer {
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
     margin-left: 16vw;
     width: 70vw;
     
@@ -51,6 +51,29 @@
 
 #bio{
     transform: translateY(-1rem);
+}
+
+.link_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10rem;
+    gap: 1rem;
+    
+    
+    
+}
+
+.about_icon {
+    transition: 200ms;
+}
+
+.about_icon:hover {
+    filter: hue-rotate(100deg) saturate(5);
+}
+
+.vsco {
+    width: 55px;
 }
 
 @media only screen and (min-width: 600px){

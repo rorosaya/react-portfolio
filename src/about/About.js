@@ -1,5 +1,8 @@
-import React, { Component } from 'react';
-import profilePic from "../assets/Rawad.png";
+import React, { Component } from 'react'
+import profilePic from "../assets/Rawad.png"
+import github from "../assets/github.png"
+import linkeddIn from "../assets/linkedin.png"
+import vsco from "../assets/vsco.png"
 import "../styles/about.css";
 
 
@@ -73,11 +76,25 @@ const About = () => {
                 <br/>
                 Some of my other hobbies include reading, playing the
                 piano, as well as multiple outlets of art, along with
-                digital art, photography, and drawing.
+                digital art, photography, and drawing. Be sure to check
+                out some of my photography and media on my vsco linked 
+                below!
             </p>
         </div>
-        </>
-    );
+        <div>
+            <div className="link_container">
+                <a href="www.linkedin.com/in/rawadsayah"> 
+                    <img className="about_icon linkedIn" src={linkeddIn}/>
+                </a>
+                <a href="https://github.com/rorosaya"> 
+                    <img className="about_icon github" src={github}/>
+                </a>
+                <a href="https://vsco.co/roesae/gallery"> 
+                    <img className="about_icon vsco" src={vsco}/>
+                </a>
+            </div>
+        </div>
+    </>);
 };
 
 export default About;
