@@ -19,7 +19,7 @@ const About = () => {
                     <p class="name">a Computer Engineer</p>
                     <p class="name">a UI/UX Developer</p>
                     <p class="name">an Adventurer</p>
-                    <p class="name">an Aritst</p>
+                    <p class="name">an Artist</p>
                     <p class="name">a Pianist</p>
                     <p class="name">a Leo</p>
                     <p class="name">Lebanese</p>

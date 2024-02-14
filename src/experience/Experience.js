@@ -10,8 +10,8 @@ const Experience = () => {
         <a  className="cv-btn-container" href={resume} download="Rawad's Resume 2024" >
             <button  class="btn cv-btn">Download CV</button>
         </a>
-        <div>
-                
+        <div class="work_experience">
+            {/* <p class="experience_section_title">Work Experience</p> */}
         </div>
         </>
     )
