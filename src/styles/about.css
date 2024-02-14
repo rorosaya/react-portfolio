@@ -137,16 +137,16 @@
             transform: translateY(-9rem);
         }
         25% {
-            transform: translateY(-13.5rem);
+            transform: translateY(-13.25rem);
         }
         30% {
-            transform: translateY(-13.5rem);
+            transform: translateY(-13.25rem);
         }
         35% {
-            transform: translateY(-15.75rem);
+            transform: translateY(-15.25rem);
         }
         40% {
-            transform: translateY(-15.75rem);
+            transform: translateY(-15.25rem);
         }
         45% {
             transform: translateY(-21rem);
