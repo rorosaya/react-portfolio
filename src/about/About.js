@@ -83,7 +83,7 @@ const About = () => {
         </div>
         <div>
             <div className="link_container">
-                <a href="www.linkedin.com/in/rawadsayah"> 
+                <a href="https://linkedin.com/in/rawadsayah"> 
                     <img className="about_icon linkedIn" src={linkeddIn}/>
                 </a>
                 <a href="https://github.com/rorosaya"> 
