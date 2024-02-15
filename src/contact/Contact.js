@@ -16,7 +16,7 @@ const Contact = () => {
                 <img className="contact-icon" src={mail}/>
                 <p className="contact-text">rawad.sayah.j@gmail.com</p>
             </a>
-            <a className="contact-info-link-container" id="contactLinkedIn" href="https://www.linkedin.com/in/rawad-s-692267114">
+            <a className="contact-info-link-container" id="contactLinkedIn" href="https://linkedin.com/in/rawadsayah">
                     <img className="contact-icon" src={linkedin}/>
                     <p className="contact-text">LinkedIn</p> 
             </a>
